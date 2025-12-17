@@ -1,14 +1,14 @@
-# 🍇 Sistema de Riego Automático para Viñedos – IoT Cloud Project
+# 🍇 Sistema de Riego Automático para Huertos Frutales – IoT Cloud Project
 
-Proyecto desarrollado como parte de **Problemáticas Globales y Prototipado (Prueba 2)**.  
-Su objetivo es implementar un sistema inteligente que optimice el riego de viñedos mediante **dispositivos IoT**, **comunicación MQTT** y **servicios en la nube**.
+Proyecto desarrollado como parte de **Problemáticas Globales y Prototipado (ET)**.  
+Su objetivo es implementar un sistema inteligente que optimice el riego de frutales mediante **dispositivos IoT**, **comunicación MQTT** y **servicios en la nube**.
 
 ---
 
 ## 🌱 Descripción del Proyecto
 
 El sistema automatiza el riego del viñedo controlando la humedad del suelo y las condiciones ambientales.  
-Cuando los sensores detectan valores bajo un umbral, se activa la válvula de riego automáticamente o bajo control manual desde una **plataforma web**.
+Cuando los sensores detectan valores bajo un umbral, se activa la válvula de riego automáticamente o bajo control manual.
 
 El enfoque combina **electrónica, comunicación IoT y análisis en la nube**, mejorando la eficiencia del agua y la producción del cultivo.
 
@@ -20,7 +20,7 @@ El enfoque combina **electrónica, comunicación IoT y análisis en la nube**, m
 - **Sebastián Basaure**  
 - **Lenny Norambuena**
 
-📅 **Fecha:** 25/10/2025  
+📅 **Fecha:** 17/12/2025  
 📘 **Sección:** 002D
 
 ---
@@ -31,7 +31,7 @@ El enfoque combina **electrónica, comunicación IoT y análisis en la nube**, m
 |-------------|----------|
 | **ESP32 / Arduino Uno** | Nodos de campo: sensores y control de válvulas |
 | **Raspberry Pi 4** | Gateway local, cliente MQTT, almacenamiento temporal |
-| **Sensores** | Humedad del suelo, temperatura, radiación solar, nivel de agua |
+| **Sensores** | Humedad del suelo, temperatura, nivel de agua |
 | **Actuadores** | Relé 5V para válvulas y bombas |
 | **Alimentación** | Panel solar + batería (para zonas remotas) |
 
@@ -146,4 +146,4 @@ Este sistema contribuye a la **agricultura sostenible**, reduciendo el consumo d
 - GitHub (control de versiones)
 
 
-✨ _Desarrollado con pasión por un equipo comprometido con la innovación tecnológica y el cuidado del medio ambiente._
+🍀🍀 _Desarrollado con pasión por un equipo comprometido con la innovación tecnológica y el cuidado del medio ambiente._🍀🍀
